@@ -1,0 +1,76 @@
+# ============================================================================
+# PROYECTO: SEGMENTACIÓN DE CLIENTES CON K-MEANS
+# Archivo: requirements.txt
+# Descripción: Dependencias del proyecto
+# ============================================================================
+
+# ============================================================================
+# LIBRERÍAS CORE DE CIENCIA DE DATOS
+# ============================================================================
+
+# Pandas - Manipulación y análisis de datos
+pandas>=2.0.0
+
+# NumPy - Operaciones numéricas y álgebra lineal
+numpy>=1.24.0
+
+# ============================================================================
+# VISUALIZACIÓN
+# ============================================================================
+
+# Matplotlib - Visualización básica
+matplotlib>=3.7.0
+
+# Seaborn - Visualización estadística avanzada
+seaborn>=0.12.0
+
+# Plotly - Gráficos interactivos (opcional pero recomendado)
+plotly>=5.14.0
+
+# ============================================================================
+# MACHINE LEARNING
+# ============================================================================
+
+# Scikit-learn - Algoritmos de ML incluyendo K-Means
+scikit-learn>=1.3.0
+
+# ============================================================================
+# JUPYTER NOTEBOOK (para desarrollo interactivo)
+# ============================================================================
+
+# Jupyter - Notebook interactivo
+jupyter>=1.0.0
+
+# IPython Kernel - Kernel de Python para Jupyter
+ipykernel>=6.0.0
+
+# JupyterLab - Alternativa moderna a Jupyter Notebook (opcional)
+jupyterlab>=4.0.0
+
+# ============================================================================
+# UTILIDADES
+# ============================================================================
+
+# Openpyxl - Leer/escribir archivos Excel (opcional)
+openpyxl>=3.1.0
+
+# XlsxWriter - Escribir archivos Excel con formato (opcional)
+xlsxwriter>=3.1.0
+
+# Pillow - Procesamiento de imágenes (para guardar gráficos en alta calidad)
+pillow>=10.0.0
+
+# ============================================================================
+# NOTAS DE INSTALACIÓN
+# ============================================================================
+# 
+# Para instalar todas las dependencias, ejecuta:
+#   pip install -r requirements.txt
+#
+# Para instalar solo las dependencias básicas (sin opcionales):
+#   pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+#
+# Si usas Anaconda:
+#   conda install pandas numpy matplotlib seaborn scikit-learn jupyter
+#
+# ============================================================================

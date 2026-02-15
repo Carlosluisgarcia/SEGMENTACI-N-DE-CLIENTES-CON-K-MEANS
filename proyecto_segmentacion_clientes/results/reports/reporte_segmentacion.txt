@@ -1,0 +1,149 @@
+====================================================================================================
+REPORTE DE SEGMENTACIÓN DE CLIENTES - K-MEANS CLUSTERING
+====================================================================================================
+
+Fecha: 2026-01-17 22:24:43
+Total de clientes analizados: 200
+Número de clusters: 5
+Features utilizadas: Annual Income (k$), Spending Score (1-100)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+MÉTRICAS DEL MODELO
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Inercia final: 65.57
+Silhouette Score: 0.5547
+Davies-Bouldin Index: 0.5722
+Iteraciones: 4
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+DISTRIBUCIÓN DE CLIENTES
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Cluster_Nombre
+Precavidos de Ingresos Medios    81
+VIP High Spenders                39
+Jóvenes Gastadores               35
+Oportunidad de Crecimiento       23
+Conservadores de Alto Ingreso    22
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+CENTROIDES POR CLUSTER
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ Annual Income (k$)  Spending Score (1-100)  Cluster
+          55.296296               49.518519        0
+          86.538462               82.128205        1
+          25.727273               79.363636        2
+          88.200000               17.114286        3
+          26.304348               20.913043        4
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+PERFILES DE SEGMENTOS
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+CLUSTER 0: Precavidos de Ingresos Medios
+Descripción: Ingresos medios, spending moderado
+Tamaño: 81 clientes
+Características:
+  • Ingresos: 50-60k$
+  • Spending: 40-50
+  • Edad: Variada
+
+CLUSTER 1: VIP High Spenders
+Descripción: Altos ingresos, alto spending
+Tamaño: 39 clientes
+Características:
+  • Ingresos: 70-90k$
+  • Spending: 75-90
+  • Edad: 30-45
+
+CLUSTER 2: Conservadores de Alto Ingreso
+Descripción: Altos ingresos, bajo spending
+Tamaño: 22 clientes
+Características:
+  • Ingresos: 70-90k$
+  • Spending: 10-25
+  • Edad: 40-60
+
+CLUSTER 3: Jóvenes Gastadores
+Descripción: Bajos ingresos, alto spending
+Tamaño: 35 clientes
+Características:
+  • Ingresos: 20-40k$
+  • Spending: 70-90
+  • Edad: 18-30
+
+CLUSTER 4: Oportunidad de Crecimiento
+Descripción: Bajos ingresos, bajo spending
+Tamaño: 23 clientes
+Características:
+  • Ingresos: 20-40k$
+  • Spending: 10-30
+  • Edad: Variada
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ESTRATEGIAS RECOMENDADAS
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+VIP High Spenders:
+
+    🎯 ESTRATEGIA:
+       • Programa de lealtad PREMIUM con beneficios exclusivos
+       • Acceso temprano a lanzamientos y colecciones limitadas
+       • Personal shopper y servicios de atención personalizada
+       • Eventos VIP y experiencias únicas
+       • Comunicación directa vía email/WhatsApp
+    
+    💰 INVERSIÓN: Alta
+    📈 POTENCIAL: Muy Alto (son tu base más rentable)
+    
+
+Jóvenes Gastadores:
+
+    🎯 ESTRATEGIA:
+       • Marketing en redes sociales (Instagram, TikTok)
+       • Influencer marketing con microinfluencers
+       • Descuentos por volumen y bundles
+       • Programa de referidos con incentivos
+       • Gamificación (puntos, badges, desafíos)
+    
+    💰 INVERSIÓN: Media
+    📈 POTENCIAL: Alto (pueden convertirse en VIP futuro)
+    
+
+Conservadores de Alto Ingreso:
+
+    🎯 ESTRATEGIA:
+       • Demostración de VALOR y CALIDAD sobre precio
+       • Testimonios y casos de éxito
+       • Garantías extendidas y políticas de devolución generosas
+       • Marketing educativo (webinars, guías, comparativas)
+       • Email marketing con contenido de valor
+    
+    💰 INVERSIÓN: Media-Alta
+    📈 POTENCIAL: Alto (tienen el dinero, falta convencerlos)
+    
+
+Oportunidad de Crecimiento:
+
+    🎯 ESTRATEGIA:
+       • Productos de entrada (loss leaders)
+       • Línea económica de calidad
+       • Programas de financiamiento y pagos flexibles
+       • Descuentos por primera compra
+       • Comunicación por WhatsApp y SMS (bajo costo)
+    
+    💰 INVERSIÓN: Baja
+    📈 POTENCIAL: Medio (volumen vs. margen)
+    
+
+Precavidos de Ingresos Medios:
+
+    🎯 ESTRATEGIA:
+       • Promociones estacionales y flash sales
+       • Descuentos por cantidad (2x1, 3x2)
+       • Productos de rango medio con buen value
+       • Programa de puntos acumulables
+       • Email marketing con ofertas personalizadas
+    
+    💰 INVERSIÓN: Media
+    📈 POTENCIAL: Medio-Alto (segmento estable)
+    

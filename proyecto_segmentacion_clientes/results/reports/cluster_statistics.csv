@@ -1,0 +1,6 @@
+Cluster,Age_mean,Age_std,Age_min,Age_max,Annual Income (k$)_mean,Annual Income (k$)_std,Annual Income (k$)_min,Annual Income (k$)_max,Spending Score (1-100)_mean,Spending Score (1-100)_std,Spending Score (1-100)_min,Spending Score (1-100)_max,Gender_<lambda>,Tamaño
+0,42.72,16.45,18,70,55.3,8.99,39,76,49.52,6.53,34,61,48F / 33M,81
+1,32.69,3.73,27,40,86.54,16.31,69,137,82.13,9.36,63,97,21F / 18M,39
+2,25.27,5.26,18,35,25.73,7.57,15,39,79.36,10.5,61,99,13F / 9M,22
+3,41.11,11.34,19,59,88.2,16.4,70,137,17.11,9.95,1,39,16F / 19M,35
+4,45.22,13.23,19,67,26.3,7.89,15,39,20.91,13.02,3,40,14F / 9M,23
